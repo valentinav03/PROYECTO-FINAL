@@ -1,0 +1,132 @@
+.navbar, h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    font-family: "Franklin Gothic", Arial;
+
+}
+
+.home-wrapper{
+    padding-top: auto;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+h2 {
+    position: relative;
+    font-size: 3em;
+    letter-spacing:7px;
+    font-family: "Black Han Sans", sans-serif;
+    display:table;
+    margin: 30px auto;
+    color:#ffffff;
+    cursor:pointer;
+    transition:.6s;
+  }
+  h2:before,
+  h2:after {
+    content:attr(data-text);
+    transition:.6s;
+  }
+  h2:before {
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index:-1;
+    text-shadow:
+     0px 0px,
+     0px 0px,
+     0px 0px,
+     0px 0px,
+     0px 0px,
+     0px 0px,
+     0px 0px,
+     0px 0px,
+     0px 0px,
+     0px 0px;
+    -webkit-mask:repeating-linear-gradient(45deg, transparent 0 3px, rgba(0,0,0,0.5) 0 6px);
+            mask:repeating-linear-gradient(45deg, transparent 0 3px, rgba(0,0,0,0.5) 0 6px);
+  }
+  h2:hover {
+    transform:translate(-10px,-10px);
+  }  
+  h2:hover:before {
+    text-shadow:
+     1px 1px,
+     2px 2px,
+     3px 3px,
+     4px 4px,
+     5px 5px,
+     6px 6px,
+     7px 7px,
+     8px 8px,
+     9px 9px,
+     10px 10px;
+  }
+  
+
+.home-content p{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+    margin-top: 30px;
+    background-color: #ffffff64;
+    
+}
+
+.contenido{
+    border: 2px solid rgb(133, 208, 221);
+    background-color: rgb(212, 230, 246);
+    display: inline-block;
+    margin-top: 750px;
+    height: 95%;
+}
+#filtro1, #filtro2{
+    text-align: center;
+    justify-content: center;
+    position: absolute; 
+    margin-top: 100px;
+    background-image: linear-gradient(to left, #aea6c3, #e8e8e8);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+#filtro1{
+    position: absolute; 
+    left: 1%;
+    width: 25%;
+    margin-top: 300px;
+}
+#filtro2{
+    position: absolute; 
+    right: 1%;
+    width: 25%;
+    margin-top: 300px;
+}
+#trabajadores{
+    position: absolute; 
+    left: 26.2%;
+    width: 47.6%;
+    margin-top: 300px;
+    margin-bottom: 5%;
+}
+table{
+    width: 100%;
+}
+tr{
+    border-bottom: 1px rgb(180, 211, 221) solid;
+}
+td{
+    text-align: center;
+}
+button{
+    width: 95%;
+}
